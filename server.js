@@ -8,7 +8,7 @@ var port = process.env.PORT || 1337;
 var app = http.createServer(function (req, res) {
     // 回覆 200
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World\n');
+    res.end('Hello Azure 這是今天上課的範例\n');
 })
 
 // 啟動並等待連接
